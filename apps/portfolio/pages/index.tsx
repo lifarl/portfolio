@@ -9,7 +9,7 @@ const StyledPage = styled.div`
 export function Index() {
   return (
     <StyledPage>
-      <h1>Hello Netlify</h1>
+      <h1>Hello Voun</h1>
     </StyledPage>
   );
 }
