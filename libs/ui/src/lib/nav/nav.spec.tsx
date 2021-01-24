@@ -1,11 +1,11 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import Header from './header';
+import Nav from './nav';
 
-describe('Header', () => {
+describe('Nav', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Header />);
+    const { baseElement } = render(<Nav githubLink={'#'} />);
     expect(baseElement).toBeTruthy();
   });
 });

@@ -1,3 +1,4 @@
+/* eslint-disable-next-line */
 const rootMain = require('../../../.storybook/main');
 
 // Use the following syntax to add addons!

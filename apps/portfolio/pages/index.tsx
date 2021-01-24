@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { HeaderImage, Nav } from '@portfolio/ui';
 const StyledPage = styled.div`
   .page {
   }
@@ -9,7 +9,10 @@ const StyledPage = styled.div`
 export function Index() {
   return (
     <StyledPage>
-      <h1>Hello Voun</h1>
+      <Nav githubLink={'https://github.com/lifarl/portfolio'} />
+      <HeaderImage>
+        <h1>This needs some time.</h1>
+      </HeaderImage>
     </StyledPage>
   );
 }

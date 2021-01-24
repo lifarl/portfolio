@@ -1,4 +1,6 @@
+/* eslint-disable-next-line */
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+/* eslint-disable-next-line */
 const rootWebpackConfig = require('../../../.storybook/webpack.config');
 /**
  * Export a function. Accept the base config as the only param.
